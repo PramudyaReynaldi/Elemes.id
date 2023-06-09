@@ -47,3 +47,20 @@ Start the server
  - [React js (Vite)](https://vitejs.dev/)
  - [React Bootstrap](https://react-bootstrap.netlify.app/)
 
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+## Deployment
+
+Mohon maaf sebelumnya, karena deploy via Heroku terdapat metode pembayaran. Sebagai gantinya, saya deploy lewat Vercel.
+Berikut demonya:
+
+https://elemes-id-mu.vercel.app/
+
