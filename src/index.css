@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Rubik;
+}
+
+/******************* CONTENT ***********************/
+.background {
+  position: relative;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/images/background.png);
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.background > * {
+  position: relative;
+  z-index: 1;
+}
+
+/******************* NAVBAR ***********************/
+.nav__text {
+  font-size: 14px;
+}
+
+/******************* Button Daftar Sekarang ****************/
+.button {
+  background-color: #8BAC3E;
+  color: #FFFF;
+  font-size: 14px;
+  border-radius: 100px;
+  padding: 10px 18px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #8BAC3E;
+  color: #FFFF;
+}
+
+/****************** HERO ********************/
+.hero__content {
+  padding-top: 7rem;
+}
+
+.img__hero {
+  margin-top: -120px;
+}
+
+@media screen and (max-width: 991px){
+  .img__hero {
+    margin-top: 2rem;
+  }
+}
+
+/**************** Button About Us *****************/
+.btn__about {
+  background-color: #F2F2F2;
+  font-size: 14px;
+  border-radius: 100px;
+  padding: 10px 18px;
+  border: none;
+  margin-left: 20px;
+}
+
+.button__hero {
+  background-color: #8BAC3E;
+  color: #FFFF;
+  font-size: 14px;
+  border-radius: 100px;
+  padding: 10px 18px;
+  border: none;
+  box-shadow: 10px 22px 48px -10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 22px 48px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 22px 48px -10px rgba(0,0,0,0.75);
+}
+
+/**************** CATEGORY *******************/
+.category__content {
+  padding-top: 3rem;
+}
+
+.card__food {
+  padding-top: 4rem;
+}
+
+/******************* SWIPER JS ************************/
+.swiper-slide {
+  height: 230px;
+  background: #F0FEEB;
+  width: 100%;
+  text-align: center;
+  min-width: 230px;
+  max-width: 400px;
+  min-height: 230px;
+}
+
+.text__items {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.swiper-slide:nth-child(2) {
+  background: #EAEEFA;
+}
+
+.swiper-slide:nth-child(3) {
+  background: #EAEEFA;
+}
+
+.swiper-slide:nth-child(4) {
+  background: #F9EEF3;
+}
+
+.swiper-slide:nth-child(5) {
+  background: #F3F7D9;
+}
+
+.swiper-nav-btns {
+  display: flex;
+  justify-content: end;
+}
+
+.swiper-nav-btns button {
+  width: 113px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background-color: #8BAC3E;
+  color: #fff;
+  margin: 0px 0.5rem;
+  margin-top: 30px;
+  padding: 10px;
+  transition: all .5s;
+}
+
+.swiper-nav-btns button:hover {
+  background-color: hsl(210, 100%, 40%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-nav-btns button {
+    display: none;
+  }
+}
+
+/**************** TRENDING *******************/
+.list__foods {
+  background-color: #E6F3F5;
+  margin: 4px;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 285px;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.list__foods:nth-child(4) {
+  background-color: #F9EEF3;
+}
+
+.list__foods:nth-child(5) {
+  background-color: #F0FEEB;
+}
+
+.list__foods:nth-child(6) {
+  background-color: #F3F7D9;
+}
+
+.list__foods:nth-child(7) {
+  background-color: #F3F7D9;
+}
+
+.brand__text {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.model__food {
+  font-size: 18;
+  color: #8BAC3E;
+}
+
+.btn-receipt {
+  background-color: #8BAC3E;
+  border-radius: 100px;
+  padding: 10px 18px;
+  color: #FFFF;
+  border: none;
+  margin-top: 5rem;
+  width: 147px;
+  height: 42px;
+}
+
+.header__title img {
+  width: 150px;
+  height: 46px;
+}
+
+.font__footer {
+  font-size: 18px;
+}
