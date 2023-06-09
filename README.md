@@ -48,13 +48,6 @@ Start the server
  - [React Bootstrap](https://react-bootstrap.netlify.app/)
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
 
 
 ## Deployment
